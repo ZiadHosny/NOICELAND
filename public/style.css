@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Tenor+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.continer {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.block {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.naobar {
+    display: flex;
+}
+
+.naobar h1 {
+    font-family: 'Libre Franklin';
+    padding-top: 37px;
+    font-size: 24px;
+    padding-bottom: 36px;
+}
+
+.naobar ul {
+    padding-top: 34px;
+    padding-left: 865px;
+    display: flex;
+    right: auto;
+    column-gap: 40px;
+}
+
+.naobar ul li {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.title {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 60px;
+}
+
+.title image {
+    width: 721px;
+    height: 474px;
+}
+
+.nik {
+    width: 429px;
+    margin: 0 auto;
+    margin-left: 51px;
+}
+
+.nik .url {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.nik h1 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 18px;
+}
+
+.nik p {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    padding-top: 27px;
+}
+
+.nik h2 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 28px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.breadcrumb {
+    width: 1220px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+    column-gap: 20px;
+    margin-bottom: 90px;
+}
+
+.card {
+    width: 387px;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 387px;
+    height: 254px;
+}
+
+.card p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-top: 24px;
+}
+
+.card h1 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 18px;
+}
+
+.card h2 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.css {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-top: 90px;
+}
+
+.sidebar {
+    width: 1220px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    column-gap: 20px;
+}
+
+.card-1 {
+    width: 285px;
+    margin: 0 auto;
+}
+
+.card-1 img {
+    width: 285px;
+    height: 187px;
+}
+
+.card-1 p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-top: 24px;
+}
+
+.card-1 h1 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 18px;
+}
+
+.card-1 h2 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 110px;
+
+}
+
+.start {
+    text-align: center;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    outline: none;
+    border: 1px solid #000000;
+background-color: #fff;
+    color: #000000;
+    padding: 21px 26px 21px 26px;
+    margin: 0 auto;
+    
+}
+.button_body{
+     text-align: center;
+     padding-bottom: 90px;
+}
+
+form {
+    display: flex;
+    justify-content: end;
+    width: 221px;
+    height: 48px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    
+}
+
+.car {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 30px;
+}
+
+.car-1 {
+    width: 590px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.car-1 img {
+    width: 590px;
+    height: 387px;
+}
+
+.car-1 p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-top: 25px;
+}
+
+.car-1 h1 {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 18px;
+}
+
+.car-1 h2 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 15px;
+}
+
+.list {
+    background-color: #000000;
+}
+
+.list-1 {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.name {
+    display: flex;
+    grid-gap: 15px;
+}
+
+.name h1 {
+    font-family: 'Libre Franklin';
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.name p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    padding-top: 9px;
+}
+
+.list-1 img {
+    color: #666666;
+    padding-top: 60px;
+}
+
+.imposter {
+    display: flex;
+    grid-gap: 823px;
+    padding-top: 60px;
+}
+
+.imposter p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+.stack {
+    width: 1200px;
+    height: 78px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.name-1 {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 92px;
+}
+
+.name-1 p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.studio {
+    width: 79px;
+    height: 48px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    outline: none;
+
+}
+
+.checkbox {
+    width: 900px;
+    height: 144px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 70px;
+    column-gap: 20px;
+}
+
+.checkbox p {
+    width: 148px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.checkbox .tabs {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    padding-bottom: 20px;
+}
